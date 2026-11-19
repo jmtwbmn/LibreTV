@@ -684,9 +684,5 @@ export function getAdapterSources(req: Request): SourceConfig[] {
   return [
     { key: 'adapter_0', name: 'NHK World', url: `${origin}/api/cms-adapter/nhk` },
     { key: 'adapter_1', name: 'NFB', url: `${origin}/api/cms-adapter/nfb` },
-    { key: 'adapter_2', name: 'Ani-One', url: `${origin}/api/cms-adapter/anione` },
-    { key: 'adapter_3', name: 'TV5MONDE', url: `${origin}/api/cms-adapter/links/TV5MONDE` },
-    { key: 'adapter_4', name: 'Tubi', url: `${origin}/api/cms-adapter/links/Tubi` },
-    { key: 'adapter_5', name: 'TubiSteamy', url: `${origin}/api/cms-adapter/links/TubiSteamy`, isAdult: true },
   ];
 }
